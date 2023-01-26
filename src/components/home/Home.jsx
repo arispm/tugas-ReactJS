@@ -1,12 +1,13 @@
 import React from 'react';
 import Carousel from './Carousel';
+import bgAris from '../../../public/aris3.jpg';
 import { Link } from 'react-router-dom';
 
 const Home = () => {
   return (
     <>
       <div className="bg-gray-900" id="home">
-        <section class="relative bg-cover bg-center bg-no-repeat" style={{ backgroundImage: 'url(/aris3.jpg)' }}>
+        <section class="relative bg-cover bg-center bg-no-repeat" style={{ backgroundImage: `url(${bgAris})` }}>
           <div class="absolute inset-0 bg-black/75 sm:bg-transparent sm:bg-gradient-to-r sm:from-black/75 sm:to-black/20"></div>
 
           <div class="relative mx-auto max-w-screen-xl px-4 py-32 sm:px-6 lg:flex lg:h-screen lg:items-center lg:px-8">
